@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: helvetica;
+    box-sizing: border-box;
+}
+
+nav img{
+    width: 115px;
+    border-radius: 200px;
+}
+.hearder {
+    background-color: rgb(249, 247, 172);
+    position: relative;
+    height: 80px;
+}
+.itens-hearder {
+    position: absolute;
+    left: 1300px;
+    display: inline-flex;
+    top: 35px;
+    list-style: none;
+    gap: 25px;
+    font-size: 20px;  
+    
+}
+.itens-hearder a{
+   border-bottom: 0; 
+   color: rgb(134, 116, 5);
+   text-decoration: none;
+   
+}
+
+.main-banner{
+    background-image: url(./assets.com/WhatsApp\ Image\ 2023-12-24\ at\ 10.48.04.jpeg);
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 10rem 0;
+}
+.main-banner h1, 
+.main-banner p{
+    color: rgb(251, 249, 248);
+    text-align: center;
+    margin: 0 auto;
+    
+    font-weight: bold;
+    text-shadow: #0d0c0c 3px 2px 3px;
+
+}
+
+h2, p{
+    text-align: center;
+   
+}
+.Pacotes h2{
+    margin-top: 40px;
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 5px;
+    
+}
+
+.container-pct{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 50px auto 0;
+
+}
+.pct{
+    flex: 1;
+    max-width: 275px;
+    margin: 0 20px 40px;
+    
+   
+}
+.pct li{
+list-style: none;
+height: 50px;
+line-height: 50px;
+background-color: #f0f1d3;
+color:#333;
+text-align: center;
+border: 2px solid white;
+
+}
+
+.pct .valor{
+    background-color: rgb(135, 186, 59);
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 25px;
+    color:white;
+    position: relative;
+    line-height: 120px;
+    margin: 0 auto -50px;
+
+}
+
+.pct .nome{
+    background-color: #5b5959;
+    color: aliceblue;
+    text-transform: uppercase;
+    text-align: center;
+    height: 100px;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 45px;
+}
+.pct .ctt{
+    background-color: #4d4c4c; 
+    color: aliceblue; 
+    text-transform: uppercase;
+    text-align: center;
+    height: 55px;
+    font-weight: bold;
+    font-size: 20px;
+}
