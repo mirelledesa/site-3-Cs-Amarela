@@ -49,18 +49,22 @@ nav img{
 .main-banner p{
     color: rgb(251, 249, 248);
     text-align: center;
-    margin: 0 auto;
+    margin: auto auto;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
     font-weight: bold;
     text-shadow: #0d0c0c 3px 2px 3px;
 
 }
+.main-banner p{
+font-size: 50px;
+}
 
 h2, p{
     text-align: center;
-   
+    
 }
+
 .Pacotes h2{
     margin-top: 40px;
     font-size: 30px;
@@ -142,7 +146,7 @@ border: 2px solid white;
 }
 .pdds h2{
     font-size: 30px;
-    color:#030303;
+    color:#f7f3f3;
     -webkit-text-stroke: 1px rgb(249, 249, 228);
     text-transform: uppercase;
 }
