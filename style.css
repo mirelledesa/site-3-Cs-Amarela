@@ -3,25 +3,30 @@
     padding: 0;
     font-family: helvetica;
     box-sizing: border-box;
+
 }
 
 nav img{
-    width: 115px;
+    width: 90px;
     border-radius: 200px;
+    height: 80px ;
+    margin-left: 10px;
+    margin-top: 5px;
 }
 .hearder {
-    background-color: rgb(249, 247, 172);
+    background-color: rgb(241, 241, 238);
     position: relative;
-    height: 80px;
+    height: 85px;
 }
 .itens-hearder {
     position: absolute;
-    left: 1300px;
+    left: 1250px;
     display: inline-flex;
     top: 35px;
     list-style: none;
     gap: 25px;
-    font-size: 20px;  
+    font-size: 17px;  
+    text-transform: uppercase;
     
 }
 .itens-hearder a{
@@ -32,18 +37,20 @@ nav img{
 }
 
 .main-banner{
-    background-image: url(./assets.com/WhatsApp\ Image\ 2023-12-24\ at\ 10.48.04.jpeg);
-    height: 550px;
+    background-image: url(./assets.com/WhatsApp\ Image\ 2024-01-02\ at\ 18.29.20_auto_x2_light_ai.jpg);
+    height: 350px;
     background-size: cover;
     background-position: center;
     text-align: center;
     padding: 10rem 0;
+    font-family: ;
 }
 .main-banner h1, 
 .main-banner p{
     color: rgb(251, 249, 248);
     text-align: center;
     margin: 0 auto;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
     font-weight: bold;
     text-shadow: #0d0c0c 3px 2px 3px;
@@ -151,18 +158,20 @@ border: 2px solid white;
     cursor: pointer;    
 }
 .rdp{
-    padding-top: 60px;
+    padding-top: 80px;
     margin-top: 200px;
     background-color: #f0f0eb;
-    height: 400px;
+    height: 450px;
 }
 .rdp h2{
      font-size: 40px;
 
+
 }
 .rdp p{
-    margin-top: 10px;
+    margin-top: 0px;
     font-size: 20px;
+
 }
 #link-social{
     display: flex;
@@ -171,16 +180,19 @@ border: 2px solid white;
     gap: 35px;
     font-size: 55px;
     text-align: center;
+    text-decoration: none;
     
 
 
 }
 #link-social .texto{
     font-size: 19px;
-    color: #030303;
-    
+    color: #989696;
+    text-decoration: none;
 
     
 
 }
-
+.nome{
+    padding-top: 10px;
+}
