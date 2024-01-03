@@ -83,6 +83,10 @@ h2, p{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
     
 }
+.Pacotes a:hover{
+background-color: rgb(123, 185, 30);
+}
+
 .Pacotes h2{
     margin-top: 40px;
     font-size: 30px;
@@ -226,9 +230,9 @@ border: 2px solid white;
     color: #989696;
     text-decoration: none;
 
-    
-
 }
 .nome{
     padding-top: 10px;
 }
+
+
