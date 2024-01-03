@@ -64,6 +64,14 @@ h2, p{
     text-align: center;
     
 }
+.fts{
+    height: 1000px;
+    background-image: url(./assets.com/galeria.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 200px;
+    margin-bottom: 90px;
+}
 
 .Pacotes h2{
     margin-top: 40px;
