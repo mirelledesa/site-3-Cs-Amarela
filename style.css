@@ -65,16 +65,16 @@ h2, p{
     
 }
 .fts{
-    height: 1000px;
+    height: 70em;
     background-image: url(./assets.com/galeria.jpg);
     background-size: cover;
     background-position: center;
     margin-top: 100px;
-    margin-bottom: 90px;
+    margin-bottom: 5%;
 }
 .Pacotes a{
     text-decoration: none;
-    margin-left: 40%;
+    margin-left: 26em;
     font-size: 25px;
     background-color: #7ea352;
     color: #fdfcfc;
@@ -222,8 +222,6 @@ border: 2px solid white;
     text-align: center;
     text-decoration: none;
     
-
-
 }
 #link-social .texto{
     font-size: 19px;
@@ -235,7 +233,123 @@ border: 2px solid white;
     padding-top: 10px;
 }
 /* Resposividade */
- 
+@media (max-width:1100px){
+    .itens-hearder{
+        left: 550px;
+    }  
+    .fts{
+    background-size:100%;
+    background-repeat: no-repeat;
+    margin-top: 0.5px;
+    margin-bottom: 0.5px;
+    }
+    .pdds img{
+        width: 300px;
+        top: 140px;
+        right: 90px;
+    } 
+    .pdds a{
+        margin-left: 200px;
+    }
+    .Pacotes a{
+        margin-left: 35%;
+    }
+}
+/*tablet 900px */
+  @media (max-width:900px){
+    .main-banner{
+        height: 350px;
+        background-size: cover;
+        background-position: center;
+        text-align: center;    
+    }
+    .Pacotes a{
+        margin-left: 30%;
+    }
+    .container-pct{
+        flex-direction: column; 
+        width: 300px
+     }
+     .itens-hearder {
+         left: 50%;
+         font-size: 12px;
+         
+    }
+    .pdds img{
+        width: 300px;
+        top: 160px;
+        right: 50%;
+    } 
+    .pdds a{
+        margin-left: 450px;
+    }   
+    .pacotes{
+        margin-top: 0;
+    }
+    .fts{
+    margin-top: 1px;
+    margin-bottom: 1px;
+    height: 50em;
+    }  
+  }
   
+  /* smartphone 575px */  
+  @media (max-width:576px){
+    .itens-hearder {
+        left: 40%;
+        gap: 9px;
+    } 
+    .main-banner{
+        
+    }
+    .main-banner p{
+    font-size: 30px;
+    }
+    .main-banner h1{
+        font-size:23px ;
+    }
+    .fts{
+        height: 25em;
+    }
+    .Pacotes h2{
+        font-size: 25px;
+    }
+    .Pacotes p{
+        font-size: 17px;
+        margin-top: 15px;
+        margin-bottom: 19px;
+    }
+
+    .pdds img{
+        width: 70%;
+        top: 310px;
+        left: 29%;
+        margin-top: 5px;
+      
+    }
+    .pdds h2{
+        font-size: 25px;
+    }
+    .pdds p{
+        font-size:20px ;
+    }
+    .Pacotes a{
+       margin-left: 23%;
+       font-size: 20px;
+        padding: 5px 5px;  
+  }
+  .pdds a{
+    margin-left: 100px;
+  }    
+  #link-social{
+    font-size: 40px;
+  }
+  #link-social .texto{
+    font-size: 10px;
+  }
+  .rdp h2{
+    font-size: 30px;
+  }
+}
 
 
